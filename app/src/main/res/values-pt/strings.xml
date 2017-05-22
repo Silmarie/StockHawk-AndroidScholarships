@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Stock Hawk</string>
+    <string name="a11y_action_change_units">Trocar unidade</string>
+    <string name="a11y_add_a_new_quote">Adicionar nova quote</string>
+    <string name="a11y_dialog_add">Adicionar</string>
+    <string name="a11y_dialog_cancel">Cancelar</string>
+    <string name="a11y_dialog_hint">Símbolo (e.x. GOOG)</string>
+    <string name="a11y_dialog_title">Adicionar quote</string>
+    <string name="a11y_stock_details_header">Detalhes quote</string>
+    <string name="a11y_stock_graph_label">Gráfico do histórico da quote</string>
+    <string name="a11y_widget_title">Estado da Bolsa</string>
+    <string name="error_no_network">Ligação à internet não disponível. Assim que houver ligação a lista será atualizada.</string>
+    <string name="error_no_stocks">\"Sem quotes! Clique no botão de ação para adicionar uma nova.</string>
+    <string name="toast_invalid_quote"><xliff:g example="GOOG">{0}</xliff:g> não é uma quote válida.</string>
+    <string name="toast_no_connectivity">Lista será atualizada quando houver ligação.</string>
+    <string name="toast_stock_added_no_connectivity">Quote <xliff:g example="GOOG">%s</xliff:g> adicionada. O valor será atualizado quando houver ligação.</string>
+</resources>

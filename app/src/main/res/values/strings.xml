@@ -1,0 +1,46 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+    <string name="a11y_action_change_units" >Change unit</string>
+
+
+    <string name="a11y_dialog_title">Add Stock</string>
+    <string name="a11y_dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="a11y_dialog_cancel">Cancel</string>
+    <string name="a11y_dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol <xliff:g example="GOOG">%s</xliff:g> added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="toast_invalid_quote"><xliff:g example="GOOG">{0}</xliff:g> is an invalid quote.</string>
+
+    <string name="a11y_stock_details_header">Quote Details</string>
+    <string name="a11y_stock_graph_label">Quote History Graph</string>
+    <string name="a11y_widget_title">Today\'s Market</string>
+    <string name="a11y_add_a_new_quote">Add a new quote</string>
+
+    <string name="stock_dialog_tag" translatable="false">StockDialogFragment</string>
+    <string name="parsing_csv_line_log" translatable="false">Parsing CSV line:</string>
+    <string name="set_background_resource_attr" translatable="false">setBackgroundResource</string>
+
+</resources>

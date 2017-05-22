@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Stock Hawk</string>
+    <string name="a11y_action_change_units">تغيير الوحدة</string>
+    <string name="a11y_add_a_new_quote">إضافة عرض أسعار جديد</string>
+    <string name="a11y_dialog_add">إضافة</string>
+    <string name="a11y_dialog_cancel">إلغاء</string>
+    <string name="a11y_dialog_hint">رمز</string>
+    <string name="a11y_dialog_title">إضافة سهم</string>
+    <string name="a11y_stock_details_header">اقتباس التفاصيل</string>
+    <string name="a11y_stock_graph_label">اقتباس التاريخ</string>
+    <string name="a11y_widget_title">سوق اليوم</string>
+    <string name="error_no_network">لا اتصال الشبكة! سيتم تحميل مؤشر الأسهم عندما تكون الشبكة متاحة.</string>
+    <string name="error_no_stocks">لم يتم إضافة أي أسهم! ضرب زر العمل العائمة لإضافة واحد.</string>
+    <string name="toast_no_connectivity">سيتم تحديث عندما الشبكة المتاحة.</string>
+    <string name="toast_stock_added_no_connectivity">تمت<xliff:g example="GOOG">%s</xliff:g> إضافة الرمز. سيتم تحديث عندما الشبكة المتاحة.</string>
+    <string name="toast_invalid_quote">هو اقتباس غير صالح.<xliff:g example="GOOG">{0}</xliff:g></string>
+</resources>
