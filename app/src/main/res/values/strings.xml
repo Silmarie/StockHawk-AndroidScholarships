@@ -42,5 +42,6 @@
     <string name="stock_dialog_tag" translatable="false">StockDialogFragment</string>
     <string name="parsing_csv_line_log" translatable="false">Parsing CSV line:</string>
     <string name="set_background_resource_attr" translatable="false">setBackgroundResource</string>
+    <string name="dialog_input">QWERTYUIOPASDFGHJKLZXCVBNM</string>
 
 </resources>

@@ -80,7 +80,7 @@ public final class QuoteSyncJob {
                 Stock stock = quotes.get(symbol);
                 StockQuote quote = stock.getQuote();
                 if (stock.getCurrency() == null) {
-
+                    stockPref.remove(symbol);
                     /**
                      * Code inferred from https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a
                      */
